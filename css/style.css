@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #E2FDFF;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+header .branding a {
+  display: inline-block;
+  font-size: 24px;
+  color: #5465FF;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 50px);
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  display: inline-block;
+  font-size: 96px;
+  color: #5465FF;
+}
+.hero p {
+  display: inline-block;
+  font-size: 20px;
+  color: #5465FF;
+  margin-top: 10px;
+}
+.hero a {
+  margin-top: 30px;
+}
+
+.wrapper {
+  width: 80%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 50px;
+  color: #5465FF;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid #5465FF;
+}/*# sourceMappingURL=style.css.map */

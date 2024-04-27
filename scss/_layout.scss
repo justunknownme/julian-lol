@@ -1,0 +1,47 @@
+// _layout.scss
+@use "sass:map";
+@use "theme" as tm;
+
+// header
+header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  .branding {
+    a {
+      display: inline-block;
+      font-size: 24px;
+      color: map.get(tm.$theme, "primary");
+      font-weight: 500;
+    }
+  }
+}
+
+// hero
+.hero {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 50px);
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    display: inline-block;
+    font-size: 96px;
+    color: map.get(tm.$theme, "primary");
+  }
+
+  p {
+    display: inline-block;
+    font-size: 20px;
+    color: map.get(tm.$theme, "primary");
+    margin-top: 10px;
+  }
+
+  a {
+    margin-top: 30px;
+  }
+}

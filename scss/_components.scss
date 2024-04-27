@@ -1,0 +1,16 @@
+// _components.scss
+@use "sass:map";
+@use "theme" as tm;
+
+.wrapper{
+    width: 80%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 50px;
+    color: map.get(tm.$theme, "primary");
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid map.get(tm.$theme, "primary");
+}

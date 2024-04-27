@@ -1,0 +1,32 @@
+// _base.scss
+@use "sass:map";
+@use "theme" as tm;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// Resets
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+// changes
+body{
+	font-family: 'Inter', sans-serif;
+	background-color: map.get(tm.$theme, "secondry");
+	// user-select: none;
+}
