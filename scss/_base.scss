@@ -27,6 +27,5 @@ a {
 // changes
 body{
 	font-family: 'Inter', sans-serif;
-	background-color: map.get(tm.$theme, "secondry");
-	// user-select: none;
+	background-color: map.get(tm.$theme, "background");
 }

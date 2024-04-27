@@ -23,6 +23,31 @@ body {
   background-color: #E2FDFF;
 }
 
+.btn {
+  display: inline-block;
+  padding: 15px 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.primary {
+  color: #5465FF;
+  border: 2px solid #5465FF;
+}
+.primary:hover {
+  background-color: #5465FF;
+  color: rgb(255, 255, 255);
+}
+
+.secondary {
+  color: #2C394F;
+  border: 2px solid #2C394F;
+}
+.secondary:hover {
+  background-color: #2C394F;
+  color: rgb(255, 255, 255);
+}
+
 header {
   display: flex;
   height: 50px;
@@ -53,7 +78,7 @@ header .branding a {
   display: inline-block;
   font-size: 20px;
   color: #5465FF;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .hero a {
   margin-top: 30px;
@@ -61,13 +86,4 @@ header .branding a {
 
 .wrapper {
   width: 80%;
-}
-
-.btn {
-  display: inline-block;
-  padding: 15px 50px;
-  color: #5465FF;
-  font-size: 20px;
-  font-weight: 500;
-  border: 2px solid #5465FF;
 }/*# sourceMappingURL=style.css.map */

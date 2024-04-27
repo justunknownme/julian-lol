@@ -1,0 +1,33 @@
+// _btns.scss
+@use "sass:map";
+@use "theme" as tm;
+
+// bace style
+.btn{
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+// primary 
+.primary{
+    color: map.get(tm.$theme, "primary");
+    border: 2px solid map.get(tm.$theme, "primary");
+    &:hover{
+        background-color: map.get(tm.$theme, "primary");
+        color: rgb(255, 255, 255);
+    }
+}
+
+// secondary 
+.secondary{
+    color: map.get(tm.$theme, "secondary");
+    border: 2px solid map.get(tm.$theme, "secondary");
+    &:hover{
+        background-color: map.get(tm.$theme, "secondary");
+        color: rgb(255, 255, 255);
+    }
+}
+
+// make disabled buttons styles
